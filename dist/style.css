@@ -25,6 +25,7 @@ a:hover {
 
 .body {
   background-color: teal;
+  overflow-x: hidden;
 }
 
 .container {

@@ -29,7 +29,16 @@ a:hover {
 
 .body {
     background-color: teal;
+
+    overflow-x: hidden;
+    // margin: 0 auto;
 }
+
+// img {
+//     margin: 0 auto;
+//     display: block;
+//     width: 100%;
+// }
 
 .container {
     max-width: 1440px;
@@ -46,19 +55,3 @@ a:hover {
 .footer {
     background-color: #0c1524;
 }
-
-
-
-// .body {
-//     max-width: 90rem;
-//     margin: 0 auto;
-
-//     background-color: hsl(0, 0%, 100%);
-// }
-
-
-
-// img {
-//     display: block;
-
-// }
