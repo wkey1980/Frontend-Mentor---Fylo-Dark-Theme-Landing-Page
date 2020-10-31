@@ -9,7 +9,7 @@
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/a00eb704a4.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/Frontend-Mentor---Fylo-Dark-Theme-Landing-Page/dist/style.css">
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
@@ -20,23 +20,70 @@
     <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
 </head>
 
-<body>
+<body class="body">
+
+    <!-- temp - load all images -->
+    <section class="temp">
+        <!-- <img src="/Frontend-Mentor---Fylo-Dark-Theme-Landing-Page/images/bg-curvy-desktop.svg" alt=""> -->
+        <!-- <img src="/Frontend-Mentor---Fylo-Dark-Theme-Landing-Page/images/bg-curvy-mobile.svg" alt=""> -->
+        <!-- <img src="/Frontend-Mentor---Fylo-Dark-Theme-Landing-Page/images/bg-quotes.png" alt=""> -->
+        <!-- <img src="/Frontend-Mentor---Fylo-Dark-Theme-Landing-Page/images/favicon-32x32.png" alt=""> -->
+        <!-- <img src="/Frontend-Mentor---Fylo-Dark-Theme-Landing-Page/images/icon-access-anywhere.svg" alt=""> -->
+        <!-- <img src="/Frontend-Mentor---Fylo-Dark-Theme-Landing-Page/images/icon-any-file.svg" alt=""> -->
+        <!-- <img src="/Frontend-Mentor---Fylo-Dark-Theme-Landing-Page/images/icon-arrow.svg" alt=""> -->
+        <!-- <img src="/Frontend-Mentor---Fylo-Dark-Theme-Landing-Page/images/icon-collaboration.svg" alt=""> -->
+        <!-- <img src="/Frontend-Mentor---Fylo-Dark-Theme-Landing-Page/images/icon-email.svg" alt=""> -->
+        <!-- <img src="/Frontend-Mentor---Fylo-Dark-Theme-Landing-Page/images/icon-location.svg" alt=""> -->
+        <!-- <img src="/Frontend-Mentor---Fylo-Dark-Theme-Landing-Page/images/icon-phone.svg" alt=""> -->
+        <!-- <img src="/Frontend-Mentor---Fylo-Dark-Theme-Landing-Page/images/icon-security.svg" alt=""> -->
+        <!-- <img src="/Frontend-Mentor---Fylo-Dark-Theme-Landing-Page/images/illustration-intro.png" alt=""> -->
+        <!-- <img src="/Frontend-Mentor---Fylo-Dark-Theme-Landing-Page/images/illustration-stay-productive.png" alt=""> -->
+        <!-- <img src="/Frontend-Mentor---Fylo-Dark-Theme-Landing-Page/images/logo.svg" alt=""> -->
+        <!-- <img src="/Frontend-Mentor---Fylo-Dark-Theme-Landing-Page/images/profile-1.jpg" alt=""> -->
+        <!-- <img src="/Frontend-Mentor---Fylo-Dark-Theme-Landing-Page/images/profile-2.jpg" alt=""> -->
+        <!-- <img src="/Frontend-Mentor---Fylo-Dark-Theme-Landing-Page/images/profile-3.jpg" alt=""> -->
+    </section>
+
+
+
     <header class="header">
         <div class="header__container">
-            <nav class="header__navigation">
-                <ul class="header__nav-list">
-                    <li class="header__nav-item"><a class="header__nav-link header__logo" href="#"></a></li>
+
+
+
+
+
+
+
+
+            <nav class="navigation">
+                <ul class="navigation__nav-list">
+                    <li class="navigation__nav-item">
+                        <a class="navigation__nav-link navigation__logo" href="#">
+                            <img src="/Frontend-Mentor---Fylo-Dark-Theme-Landing-Page/images/logo.svg" alt="Logo">
+                        </a>
+                    </li>
                 </ul>
 
-                <ul class="header__nav-list">
-                    <li class="header__nav-item"><a class="header__nav-link" href="#">Features</a></li>
-                    <li class="header__nav-item"><a class="header__nav-link" href="#">Team</a></li>
-                    <li class="header__nav-item"><a class="header__nav-link" href="#">Sign In</a></li>
+                <ul class="navigation__nav-list">
+                    <li class="navigation__nav-item"><a class="navigation__nav-link" href="#">Features</a></li>
+                    <li class="navigation__nav-item"><a class="navigation__nav-link" href="#">Team</a></li>
+                    <li class="navigation__nav-item"><a class="navigation__nav-link" href="#">Sign In</a></li>
                 </ul>
             </nav>
+
+            <img src="/Frontend-Mentor---Fylo-Dark-Theme-Landing-Page/images/bg-curvy-desktop.svg" alt="">
+
+
+
+
+
+
+
+
             <div class="hero">
                 <div class="hero__container">
-                    <div class="hero__img"></div>
+                    <div class="hero__img"><img src="/Frontend-Mentor---Fylo-Dark-Theme-Landing-Page/images/illustration-intro.png" alt=""></div>
                     <div class="hero__h1">All your files in one secure location, accessible anywhere.</div>
                     <div class="hero__description">Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.</div>
                     <a class="hero__cta" href="#">Get Started</a>
@@ -44,31 +91,34 @@
             </div>
         </div>
     </header>
-    <main class="main">
+    <!-- <main class="main">
 
         <div class="main__container">
-            <div class="services">
-                <div class="services">
+            <section class="services">
+                <article class="services">
                     <div class="services__access-img"></div>
                     <div class="services__h1"> Access your files, anywhere</div>
                     <div class="services__description">The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.</div>
-                </div>
-                <div class="services">
+                </article>
+
+                <article class="services">
                     <div class="services__trust-img"></div>
                     <div class="services__h1">Security you can trust</div>
                     <div class="services__description">2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.</div>
-                </div>
-                <div class="services">
+                </article>
+
+                <article class="services">
                     <div class="services__real-time-img"></div>
                     <div class="services__h1">Real-time collaboration</div>
                     <div class="services__description">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</div>
-                </div>
-                <div class="services">
+                </article>
+
+                <article class="services">
                     <div class="services__store-img"></div>
                     <div class="services__h1">Store any type of file</div>
                     <div class="services__description">Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.</div>
-                </div>
-            </div>
+                </article>
+            </section>
 
             <section>
                 <div class="img"></div>
@@ -155,7 +205,7 @@
             Coded by <a href="#">Will</a>.
           </p>
 
-    </footer>
+    </footer> -->
 
     <script src="/app/js/app.js"></script>
 </body>
