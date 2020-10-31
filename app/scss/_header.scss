@@ -1,34 +1,30 @@
+
+
 .header {
-    background-color: $darkBlue-bg-main;
-    width: 100%;
-    height: 4rem;
+    // background-color: orange;
 
-    &__container {
+    & .navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
-        max-width: 70rem;
-        height: 100%;
-        background-color: red;
+        // background-color: $darkBlue;
 
-        // max-width: 70rem;
-        // margin: 0 auto;
+        &__nav-list {
+            display: flex;
+
+            padding: 1rem 2rem;
+            // background-color: orange;
+
+            & a:not(.navigation__logo) {
+                padding: 1rem 2rem;
+                color: $white;
+                // background-color:red;
+            }
+        }
+
+        &__logo {
+            padding: 1rem 2rem;
+        }
     }
-}
-
-.navigation {
-
-    // &__nav-list {
-
-    // }
-
-    // &__nav-item {
-
-    // }
-
-    // &__nav-link {
-
-    // }
-
-    // &__logo {
-
-    // }
 }
