@@ -9,23 +9,25 @@
             grid-template-areas:
                 "a b"
                 "c d";
-        }
 
-        & a {
-            grid-area: a;
-        }
+            & .a {
+                grid-area: a;
+            }
+    
+            & .b {
+                grid-area: b;
+            }
+    
+            & .c {
+                grid-area: c;
+            }
+    
+            & .d {
+                grid-area: d;
+            }
+    
+    }
 
-        & a {
-            grid-area: b;
-        }
-
-        & a {
-            grid-area: c;
-        }
-
-        & a {
-            grid-area: d;
-        }
 
     }
 }

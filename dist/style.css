@@ -110,19 +110,19 @@ a:hover {
   grid-template-areas: "a b" "c d";
 }
 
-.main__container a {
+.main__container .services-container .a {
   grid-area: a;
 }
 
-.main__container a {
+.main__container .services-container .b {
   grid-area: b;
 }
 
-.main__container a {
+.main__container .services-container .c {
   grid-area: c;
 }
 
-.main__container a {
+.main__container .services-container .d {
   grid-area: d;
 }
 /*# sourceMappingURL=style.css.map */
