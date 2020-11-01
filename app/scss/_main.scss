@@ -1,0 +1,31 @@
+.main {
+
+    &__container {
+
+        & .services-container {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas:
+                "a b"
+                "c d";
+        }
+
+        & a {
+            grid-area: a;
+        }
+
+        & a {
+            grid-area: b;
+        }
+
+        & a {
+            grid-area: c;
+        }
+
+        & a {
+            grid-area: d;
+        }
+
+    }
+}
