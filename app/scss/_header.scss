@@ -1,25 +1,20 @@
 
 
 .header {
-    // background-color: orange;
 
     & .navigation {
         display: flex;
         justify-content: space-between;
         align-items: center;
 
-        // background-color: $darkBlue;
-
         &__nav-list {
             display: flex;
 
             padding: 1rem 2rem;
-            // background-color: orange;
 
             & a:not(.navigation__logo) {
                 padding: 1rem 2rem;
                 color: $white;
-                // background-color:red;
             }
         }
 
@@ -37,8 +32,6 @@
 
     max-width: 45rem;
     margin: 0 auto;
-
-    // background-color: teal;
 
     &__h1 {
         color: $white;
